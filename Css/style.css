@@ -1,0 +1,62 @@
+/* Estilos para el menu*/
+nav,
+.offcanvas {
+      background-color: #000000;
+    }
+.navbar-toggler {
+      border: none;
+      
+    }
+.navbar-toggler:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+#LineaRedes {
+      border-right: 1px solid #ffffff;
+    }
+.ColorRedes {
+      color: #ffffff;
+    }
+    
+@media (max-width: 800px) {
+      .navbar-nav > li:hover {
+        background-color: #ffffff;
+        
+      }
+    }
+
+.home_grapper{
+      width: 100vh;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+/*Estilos o margenes para cada una de las secciones */ 
+
+.VDatos{
+
+  margin-top: 10%;
+
+}
+.VCarrusel{
+
+  margin-top: 10%;
+
+}
+.Vtestimonios{
+
+  margin-top: 5%;
+
+}
+.VllamadoAccion{
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+.Vinicial{
+  margin-top: 10%;
+}
