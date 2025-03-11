@@ -1,3 +1,18 @@
+/* Estilos para el cuerpo y no genere barra Horizintal en tablet y Movil*/
+body {
+  overflow-x: hidden;
+}
+.navbar-nav {
+  flex-wrap: nowrap;
+}
+
+.nav-item {
+  flex-shrink: 1;
+}
+
+.offcanvas-body {
+  overflow-x: hidden;
+}
 /* Estilos para el menu*/
 nav,
 .offcanvas {
